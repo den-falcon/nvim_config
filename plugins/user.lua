@@ -9,4 +9,16 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  { 
+    "catppuccin/nvim", 
+    name = "Catppuccin" 
+  },
+  {
+    "joshdick/onedark.vim",
+    name = "Onedark"
+  },
+  {
+    "mattn/emmet-vim",
+    name = "Emmet"
+  }
 }
