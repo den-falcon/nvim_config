@@ -11,14 +11,18 @@ return {
   -- },
   { 
     "catppuccin/nvim", 
-    name = "Catppuccin" 
+    name = "catppuccin" 
   },
   {
     "joshdick/onedark.vim",
-    name = "Onedark"
+    name = "onedark"
   },
   {
     "mattn/emmet-vim",
-    name = "Emmet"
+    name = "emmet"
+  },
+  {
+    "gforcada/flake8-builtins",
+    name = "flake8-builtins"
   }
 }

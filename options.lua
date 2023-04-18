@@ -6,7 +6,18 @@ return {
     number = true, -- sets vim.opt.number
     spell = false, -- sets vim.opt.spell
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
-    wrap = true, -- sets vim.opt.wrap
+    wrap = false, -- sets vim.opt.wrap
+    guifont = "FiraCode Nerd Font:h11",
+    colorcolumn="120",
+    listchars = {
+      eol = "↲",
+      tab = "» ",
+      space = "·",
+      extends = "›",
+      precedes = "‹",
+      nbsp = "␣",
+    },
+    shell = "zsh",
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader
